@@ -1,0 +1,15 @@
+[
+    {"analogie":"une saison", "valeurAnalogie":"le printemps",  "image":"./illustrations/printemps.jpg", "explication":"Parce que je suis né en avril et donc au printemps. De plus, il ne fait ni trop chaud ni trop froid au printemps. En effet, les jours s'allongent, les températures augmentent et permettent de passer davantage de temps à l'extérieur. Sauf que les températures ne sont pas aussi fortes par rapport à l’été ce qui rend les sorties plus agréables selon moi."},
+    
+    {"analogie":"une chanson", "valeurAnalogie":"Bâtard de Stromae", "image":"./illustrations/musique.jpg", "explication":"Parce que quand j’étais petite je l’écoutais en boucle avec mon mp3. De plus, je me reconnais dans les paroles, en effet cette chanson parle du fait d’avoir du mal à trouver sa place en tant que personne métisse de peau. Le mot « Bâtard » pourrait faire référence à l'individualisme. Dans le sens ou, n'importe quel humain ne devrait représenter que lui-même, et que ses origines ne doivent pas l'introduire dans une partialité qui engendrera une répartition sociale et influencera ses choix vers le pire. Aucune origine ne justifie un mal dans le monde. Stromae évoque également les jugements constants des gens qui veulent mettre les autres dans une case bien précise. L'instrumentale de la chanson « Bâtard » est électro par excellence, Stromae nous invite à danser sur ses chansons tout en nous pensons à méditer sur des sujets très sérieux qui touchent à toutes les sociétés."},
+    
+    {"analogie":"un instrument de musique", "valeurAnalogie":"une guitare", "image":"./illustrations/guitare.jpg", "explication":"Parce que j’en joue depuis mes 9 ans, et que j’adore en faire. De plus, la guitare offre une multitude d’avantages: elle est assez simple à comprendre, les premiers pas sont assez faciles à suivre et la progression dans la pratique peut être assez rapide pour atteindre un bon niveau. C’est un instrument qui peut se jouer n’importe où, avec n’importe qui et vous pouvez reproduire beaucoup de morceaux à l’oreille. De nombreuses partitions et tablatures sont disponibles sur Internet, avec de nombreux tutos. Et enfin, il n’y a pas d’âge pour commencer la guitare."},
+    
+    {"analogie":"un vêtement", "valeurAnalogie":"un sweat à capuche", "image":"./illustrations/vêtements.jpg", "explication":"j’aime rester confortable pendant la journée."},
+    
+    {"analogie":"un producteur", "valeurAnalogie":"3RACHA", "image":"./illustrations/producteur.jpg", "explication":"se sont mes producteurs préféré…"},
+    
+    {"analogie":"un film", "valeurAnalogie":"Black Panther", "image":"./illustrations/film.jpg", "explication":"c'est mon film préféré…"},
+    
+    {"analogie":"un paysage", "valeurAnalogie":"une plage", "image":"./illustrations/martinique.jpg", "explication":"c'est un lieu relaxant."}
+]

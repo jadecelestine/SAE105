@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'msuigothic';
+    src: url('./font/Aclonica-Regular.woff') format('woff');
+}
+
+@media screen and (max-width: 1280px)  and (min-width: 768px){
+    
+}
+
+html {
+    -ms-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(illustrations/arrièreplan.png);
+    background-position: fixed;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+    margin: 0;
+    font-family: 'msuigothic';
+}
+
+h1 {
+    text-align: center;
+    color: rgb(238, 219, 135);
+    margin-top: 20rem;
+    margin-bottom: 25rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding: 2rem;
+    font-size: 340%;
+    background-color: black;
+    border: solid 0.3rem rgb(238, 219, 135);
+    border-radius: 1rem;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+main {
+    padding: 3rem;
+    scroll-snap-align: start;
+}
+
+.liste-analogies {
+    background-color: black;
+    border: solid 0.3rem rgb(238, 219, 135);
+    border-radius: 3rem;
+    text-align: center;
+    display: block;
+    padding-top: 5rem;
+    margin: auto;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    font-size: large;
+    width: 80vw;
+}
+
+section {
+    border: solid 0.2rem rgb(243, 203, 93);
+    border-radius: 3rem;
+    border-spacing: 5rem;
+    background-color: black;
+    color:rgb(238, 219, 135);
+    scroll-snap-align: start;
+    display: grid;
+    place-items: center;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    page-break-after:always;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.image {
+    border: 0.1rem solid rgb(243, 203, 93);
+    border-radius: 3rem;
+    box-shadow: 0.5rem 0.5rem rgb(0, 0, 0);
+    margin: auto;
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: rgb(0, 0, 0,0.8);
+}
+
+.popup-visible {
+    display: block;
+}
+
+.popup-invisible {
+    display: none;
+}
+
+.bouton {
+    padding:5rem;
+    margin: 20rem;
+    position: fixed;
+    border-radius: 3rem;
+    background-color: rgb(243, 203, 93,0.9);
+    color: rgb(0, 0, 0);
+    size: 100%;
+    text-align: justify;
+}
+
+.text-cliquable {
+    color: rgb(243, 203, 93);
+    cursor: pointer;
+    text-decoration: underline;
+    transform: none;
+}
+
+h2:nth-of-type(2):hover {
+    text-decoration: none;
+    color: rgb(238, 219, 135);
+    transform: scale(1.2);
+    transition: all 0.8s ease;
+}
+
+form {
+    width: 40rem;
+    margin: auto;
+    margin-bottom: 0rem;
+    padding: 2rem;
+    background-color: rgb(0, 0, 0,0.8);
+    border: solid 0.3rem rgb(238, 219, 135);
+    border-radius: 3rem;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+form > h1 {
+    font-size: 150%;
+    margin: auto;
+    text-align: center;
+    color: rgb(243, 203, 93);
+    box-shadow: none;
+    background-color: black;
+    border: solid rgb(243, 203, 93) 0.3rem;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.formulaire {
+    font-size: auto;
+    text-align: center;
+    display: block;
+    color: rgb(238, 219, 135);
+}
+
+.zonesaisie {
+    width: 20rem;
+    height: 2rem;
+    border: solid 0.2rem black;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.zonesaisie:focus {
+    outline: solid 0.1rem rgb(243, 203, 93);
+}
+
+.envoyer {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-family: 'msuigothic';
+    border: 0;
+    background-color: rgb(238, 219, 135);
+    box-shadow: 0.5rem 0.5rem rgb(243, 203, 93);
+    color: black;
+    text-decoration: none;
+}
+
+.envoyer:hover {
+    background-color: black;
+    color: rgb(238, 219, 135);
+}
+
+.ajout {
+    margin-bottom: 20rem;
+    margin-top: 2rem;
+}
+
+img > .ajout {
+    max-width: 275px;
+    max-height: 183px;
+}
+
+footer {
+    color: rgb(238, 219, 135);
+    background-color: black;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    color: rgb(243, 203, 93);
+    text-decoration: underline;
+    width: 100vw;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(243, 203, 93);
+    border: solid 0.1rem rgb(238, 219, 135);
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
